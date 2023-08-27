@@ -7,4 +7,7 @@
   .margin-x {
     @apply 2xl:mx-48 xl:mx-32 lg:mx-24
   }
+  .bg-content-block {
+    @apply bg-gradient-to-br from-gray-200 to-slate-200
+  }
 }
