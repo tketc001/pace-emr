@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { CalendarComponent } from './App-Structure/Calendar/calendar/calendar.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { DashboardComponent } from './Pages/dashboard/dashboard.component';
+import { PatientPhotoComponent } from './Components/patient-info/patient-photo/patient-photo.component';
+import { PatientDemographicsComponent } from './Components/patient-info/patient-demographics/patient-demographics.component';
+import { UpcomingAppointmentsComponent } from './Components/patient-info/upcoming-appointments/upcoming-appointments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalendarComponent,
     NavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    PatientPhotoComponent,
+    PatientDemographicsComponent,
+    UpcomingAppointmentsComponent
   ],
   imports: [
     BrowserModule,

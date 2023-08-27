@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  background: white;
+}
+
+@layer base {
+  .margin-x {
+    @apply 2xl:mx-48 xl:mx-32 lg:mx-24
+  }
+}
