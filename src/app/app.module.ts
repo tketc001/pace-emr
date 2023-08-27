@@ -9,6 +9,12 @@ import { DashboardComponent } from './Pages/dashboard/dashboard.component';
 import { PatientPhotoComponent } from './Components/patient-info/patient-photo/patient-photo.component';
 import { PatientDemographicsComponent } from './Components/patient-info/patient-demographics/patient-demographics.component';
 import { UpcomingAppointmentsComponent } from './Components/patient-info/upcoming-appointments/upcoming-appointments.component';
+import { MarketingEnrollmentComponent } from './Components/patient-info/marketing-enrollment/marketing-enrollment.component';
+import { InterestLevelComponent } from './Components/patient-info/interest-level/interest-level.component';
+import { DailyNotesComponent } from './Components/patient-info/daily-notes/daily-notes.component';
+import { EnrollmentEvaluationComponent } from './Components/patient-info/enrollment-evaluation/enrollment-evaluation.component';
+import { LevelOfCareComponent } from './Components/patient-info/level-of-care/level-of-care.component';
+import { AdditionalParticipantInfoComponent } from './Components/patient-info/additional-participant-info/additional-participant-info.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { UpcomingAppointmentsComponent } from './Components/patient-info/upcomin
     DashboardComponent,
     PatientPhotoComponent,
     PatientDemographicsComponent,
-    UpcomingAppointmentsComponent
+    UpcomingAppointmentsComponent,
+    MarketingEnrollmentComponent,
+    InterestLevelComponent,
+    DailyNotesComponent,
+    EnrollmentEvaluationComponent,
+    LevelOfCareComponent,
+    AdditionalParticipantInfoComponent
   ],
   imports: [
     BrowserModule,
